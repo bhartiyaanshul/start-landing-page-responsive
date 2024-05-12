@@ -1,0 +1,96 @@
+.team-section{
+    padding: 0px 130px 50px 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.team-section-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.team-text{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #74C69D;
+}
+
+.team-title{
+    font-family: Crimson Text;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    color: #212529;
+}
+
+.team-subtext{
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+}
+
+.team-members{
+    display: flex;
+    gap: 50px;
+}
+
+.team-member{
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+.member-info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.member-name{
+    font-family: Crimson Text;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: #212529;
+}
+
+.member-designation{
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+    color: #212529BF;
+}
+
+.view-team-button{
+    padding: 10px 30px;
+    background-color: #212529;
+    border-radius: 5px;
+    color: white;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
