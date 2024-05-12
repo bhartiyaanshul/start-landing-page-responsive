@@ -33,4 +33,30 @@
     align-items: center;
 }
 
+@media screen and (max-width: 700px) {
+    .navbar-section{
+        padding: 35px 20px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .navbar-company > img{
+        height: 30px;
+    }
+
+    .company-name{
+        font-family: Work Sans;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .navbar-details{
+        display: block;
+    }
+    
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');

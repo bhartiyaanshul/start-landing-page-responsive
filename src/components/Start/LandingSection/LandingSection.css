@@ -6,6 +6,17 @@
     justify-content: space-between;
 }
 
+@media screen and (max-width: 700px) {
+    .landing-section{
+        display: flex;
+        flex-direction: column;
+        background-color: #74C69D;
+        padding: 30px 20px;
+        justify-content: space-between;
+        gap: 30px;
+    }
+}
+
 .landing-section-details{
     justify-content: center;
     display: flex;

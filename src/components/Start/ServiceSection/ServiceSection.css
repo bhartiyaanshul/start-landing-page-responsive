@@ -11,6 +11,27 @@
     justify-content: space-between;
 }
 
+@media screen and (max-width: 700px) {
+    .service{
+        display: flex;
+        flex-direction: column;
+        gap: 110px;
+    }
+
+    .service:nth-child(2){
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 110px;
+    }
+
+    .services-section{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px 70px 20px;
+    }
+
+}
+
 .service-details{
     display: flex;
     flex-direction: column;
