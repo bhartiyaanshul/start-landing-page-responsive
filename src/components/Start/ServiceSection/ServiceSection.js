@@ -10,14 +10,14 @@ export const ServiceSection = () => {
         <div className='service'>
             <img src={service1} alt=''/>
             <div className='service-details'>
-                <div className='service-title'>Lorem ipsum dolor sit <br/> amet consectetur </div>
+                <div className='service-title'>Lorem ipsum dolor sit amet consectetur </div>
                 <div className='service-subtext'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br/> Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos <br/>error ipsum, voluptate culpa nesciunt delectus iste?</div>
                 <div className='learn-more-button'>Learn More</div>
             </div>
         </div>
         <div className='service'>
             <div className='service-details'>
-                <div className='service-title'>Lorem ipsum dolor sit <br/> amet consectetur </div>
+                <div className='service-title'>Lorem ipsum dolor sit amet consectetur </div>
                 <div className='service-subtext'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br/> Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos <br/>error ipsum, voluptate culpa nesciunt delectus iste?</div>
                 <div className='learn-more-button'>Learn More</div>
             </div>

@@ -33,9 +33,13 @@
     align-items: center;
 }
 
-@media screen and (max-width: 700px) {
+.responsive-menu {
+    display: none;
+  }
+
+@media screen and (max-width: 900px) {
     .navbar-section{
-        padding: 35px 20px;
+        padding: 15px 20px;
         display: flex;
         align-items: center;
         gap: 30px;
@@ -54,6 +58,21 @@
     }
 
     .navbar-details{
+        flex-direction: column;
+        display: none;
+        background-color: #74c69d;
+        width: 100%;
+        right: 0;
+        top: 70px;
+        position: absolute;
+    }
+
+    .navbar-details.show{
+        display: flex;
+        border: 1px solid #000000;
+    }
+
+    .responsive-menu{
         display: block;
     }
     

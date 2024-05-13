@@ -46,13 +46,14 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1200px) {
     .partners-section{
         padding: 60px 20px 80px 20px;
     }
     .partners-image{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         gap: 65px;
         align-items: center;
         justify-content: center;
