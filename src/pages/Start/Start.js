@@ -9,12 +9,10 @@ import { Footer } from '../../components/Start/Footer/Footer'
 export const Start = () => {
   return (
     <div>
-        <Navbar />
         <LandingSection />
         <PartnersSection />
         <ServiceSection />
         <TeamSection />
-        <Footer />
     </div>
   )
 }

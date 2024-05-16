@@ -1,8 +1,10 @@
 .footer-section{
+    /* width: 100%; */
     padding: 55px 130px;
     background-color: #74C69D;
     display: flex;
     justify-content: space-between;
+    padding-top: auto;
 }
 
 .footer-section > img{

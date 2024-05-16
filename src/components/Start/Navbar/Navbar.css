@@ -1,8 +1,14 @@
 .navbar-section{
+    /* width: 100%; */
     display: flex;
     background-color: #74C69D;
     justify-content: space-between;
     padding: 35px 130px;
+}
+
+.menu-item{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .navbar-company{

@@ -1,0 +1,89 @@
+.plans-data{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+
+.plans-card{
+    padding: 45px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.25);
+    max-width: 300px;
+    min-width: 150px;
+}
+
+.plans-details{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.plans-plan{
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+}
+
+.plans-price{
+    display: flex;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;    
+    align-items: center;
+    gap: 10px;
+}
+
+.price-month{
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.75px;
+    align-items: center;
+    text-align: left;
+    color: #21252980;
+}
+
+.plans-detail{
+    align-items: center;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: center;
+    color: #21252980;
+}
+
+.plans-features{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: left !important;
+}
+
+.plan-feature{
+    align-items: left;
+    display: flex;
+    gap: 10px;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: center;
+    color: #212529;
+}
+/* @media screen and (max-width: 768px) {
+    .plans-data{
+        
+        gap: 50px;
+    }
+} */
